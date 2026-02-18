@@ -15,13 +15,13 @@ class utils:
         
     def load(self) -> None:
         try:
-            self.model = load_model("C:/Users/matty/OneDrive/Documentos/Projects/Posgrad/deep_learning/mercado_finaceiro_oneparameter/b3_lstm_model.keras")
+            self.model = load_model("b3_lstm_model.keras")
             # self.model.eval()    
         except Exception as e:
             raise RuntimeError(f"Error loading model: {e}")
         
         try:
-            with open('C:/Users/matty/OneDrive/Documentos/Projects/Posgrad/deep_learning/mercado_finaceiro_oneparameter/scaler.pkl', 'rb') as f:
+            with open('scaler.pkl', 'rb') as f:
                 self.scaler = pickle.load(f)
         except Exception as e:
             raise RuntimeError(f"Failed loading scaler: {e}")  
