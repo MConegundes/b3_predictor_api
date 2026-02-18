@@ -119,6 +119,12 @@ fastapi, uvicorn, tensorflow, numpy, pandas, scikit-learn
 
 ---
 
+## 🎥 Video do projeto
+
+[Apresentação_Fase_4](https://drive.google.com/file/d/1yeYmNw2JNQjrhrDho7dFHci16X521Jyb/view?usp=sharing)
+
+---
+
 ## 📝 Observações
 
 Projeto educacional para fins de estudo e demonstração.
